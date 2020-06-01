@@ -1,6 +1,6 @@
 //
 //  SafariExtensionViewController.swift
-//  yeehah Extension
+//  yeehah_extension
 //
 //  Created by Kevin Carmody on 22/05/2020.
 //

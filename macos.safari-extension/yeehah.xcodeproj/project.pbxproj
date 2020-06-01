@@ -12,7 +12,7 @@
 		0A2BE7E82477DC0E005D0C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A2BE7E62477DC0E005D0C29 /* Main.storyboard */; };
 		0A2BE7EA2477DC0E005D0C29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BE7E92477DC0E005D0C29 /* ViewController.swift */; };
 		0A2BE7EC2477DC12005D0C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2BE7EB2477DC12005D0C29 /* Assets.xcassets */; };
-		0A2BE7F32477DC12005D0C29 /* yeehah Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A2BE7F22477DC12005D0C29 /* yeehah Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A2BE7F32477DC12005D0C29 /* yeehah_extension in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A2BE7F22477DC12005D0C29 /* yeehah_extension */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0A2BE7F82477DC12005D0C29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2BE7F72477DC12005D0C29 /* Cocoa.framework */; };
 		0A2BE7FB2477DC12005D0C29 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BE7FA2477DC12005D0C29 /* SafariExtensionHandler.swift */; };
 		0A2BE7FD2477DC12005D0C29 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2BE7FC2477DC12005D0C29 /* SafariExtensionViewController.swift */; };
@@ -27,7 +27,7 @@
 			containerPortal = 0A2BE7D72477DC0D005D0C29 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0A2BE7F12477DC12005D0C29;
-			remoteInfo = "yeehah Extension";
+			remoteInfo = "yeehah_extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,7 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0A2BE7F32477DC12005D0C29 /* yeehah Extension.appex in Embed App Extensions */,
+				0A2BE7F32477DC12005D0C29 /* yeehah_extension in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +53,7 @@
 		0A2BE7E92477DC0E005D0C29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A2BE7EB2477DC12005D0C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A2BE7ED2477DC12005D0C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A2BE7F22477DC12005D0C29 /* yeehah Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "yeehah Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2BE7F22477DC12005D0C29 /* yeehah_extension */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = yeehah_extension; path = "../../../../../../../../../../Volumes/projects/urgh-extension/macos.safari-extension/yeehah_extension"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2BE7F72477DC12005D0C29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0A2BE7FA2477DC12005D0C29 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		0A2BE7FC2477DC12005D0C29 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				0A2BE7E12477DC0E005D0C29 /* yeehah */,
-				0A2BE7F92477DC12005D0C29 /* yeehah Extension */,
+				0A2BE7F92477DC12005D0C29 /* yeehah_extension */,
 				0A2BE7F62477DC12005D0C29 /* Frameworks */,
 				0A2BE7E02477DC0D005D0C29 /* Products */,
 			);
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				0A2BE7DF2477DC0D005D0C29 /* yeehah.app */,
-				0A2BE7F22477DC12005D0C29 /* yeehah Extension.appex */,
+				0A2BE7F22477DC12005D0C29 /* yeehah_extension */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0A2BE7F92477DC12005D0C29 /* yeehah Extension */ = {
+		0A2BE7F92477DC12005D0C29 /* yeehah_extension */ = {
 			isa = PBXGroup;
 			children = (
 				0A2BE7FA2477DC12005D0C29 /* SafariExtensionHandler.swift */,
@@ -134,7 +134,7 @@
 				0A2BE8042477DC12005D0C29 /* ToolbarItemIcon.pdf */,
 				0A2BE8062477DC12005D0C29 /* yeehah_Extension.entitlements */,
 			);
-			path = "yeehah Extension";
+			path = yeehah_extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +159,9 @@
 			productReference = 0A2BE7DF2477DC0D005D0C29 /* yeehah.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0A2BE7F12477DC12005D0C29 /* yeehah Extension */ = {
+		0A2BE7F12477DC12005D0C29 /* yeehah_extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A2BE8092477DC12005D0C29 /* Build configuration list for PBXNativeTarget "yeehah Extension" */;
+			buildConfigurationList = 0A2BE8092477DC12005D0C29 /* Build configuration list for PBXNativeTarget "yeehah_extension" */;
 			buildPhases = (
 				0A2BE7EE2477DC12005D0C29 /* Sources */,
 				0A2BE7EF2477DC12005D0C29 /* Frameworks */,
@@ -171,9 +171,9 @@
 			);
 			dependencies = (
 			);
-			name = "yeehah Extension";
-			productName = "yeehah Extension";
-			productReference = 0A2BE7F22477DC12005D0C29 /* yeehah Extension.appex */;
+			name = "yeehah_extension";
+			productName = "yeehah_extension";
+			productReference = 0A2BE7F22477DC12005D0C29 /* yeehah_extension */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 			projectRoot = "";
 			targets = (
 				0A2BE7DE2477DC0D005D0C29 /* yeehah */,
-				0A2BE7F12477DC12005D0C29 /* yeehah Extension */,
+				0A2BE7F12477DC12005D0C29 /* yeehah_extension */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +260,7 @@
 /* Begin PBXTargetDependency section */
 		0A2BE7F52477DC12005D0C29 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A2BE7F12477DC12005D0C29 /* yeehah Extension */;
+			target = 0A2BE7F12477DC12005D0C29 /* yeehah_extension */;
 			targetProxy = 0A2BE7F42477DC12005D0C29 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,11 +401,11 @@
 		0A2BE80A2477DC12005D0C29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "yeehah Extension/yeehah_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = yeehah_extension/yeehah_Extension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q7S89F6S6J;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "yeehah Extension/Info.plist";
+				INFOPLIST_FILE = yeehah_extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -421,11 +421,11 @@
 		0A2BE80B2477DC12005D0C29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "yeehah Extension/yeehah_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = yeehah_extension/yeehah_Extension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q7S89F6S6J;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "yeehah Extension/Info.plist";
+				INFOPLIST_FILE = yeehah_extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -492,7 +492,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A2BE8092477DC12005D0C29 /* Build configuration list for PBXNativeTarget "yeehah Extension" */ = {
+		0A2BE8092477DC12005D0C29 /* Build configuration list for PBXNativeTarget "yeehah_extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A2BE80A2477DC12005D0C29 /* Debug */,
