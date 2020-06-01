@@ -1,4 +1,14 @@
 
+# Node builds
+.cache/
+coverage/
+node_modules/
+*.log
+
+# Exclude build output
+macos.safari-extension/yeehah_extension/script.js
+
+
 # Created by https://www.gitignore.io/api/xcode
 # Edit at https://www.gitignore.io/?templates=xcode
 
@@ -39,4 +49,12 @@ DerivedData/
 
 # End of https://www.gitignore.io/api/xcode
 
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
